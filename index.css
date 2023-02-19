@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Shantell Sans', cursive;
+}
+.center{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:justify;
+}
+.fix{
+    position: fixed;
+}
+.corsivo{
+    font-style: italic;
+}
+
+
+.bg-1{
+    background-image:url(item/Ostrogoths.png);
+    background-repeat: no-repeat;
+    background-position-y: 5vh;
+    background-color: #b58928;
+}
+.div-1{
+    height: 100vh;
+    width: 100vw;
+}
+
+.none{
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(.215, .61, .355, 1);
+}
+
+
+.sec-{
+    height: 150vh;
+    background-color: #b58928;
+}
+.sec--{
+    height: 120vh;
+    background-color: #b58928;
+}
+.title{
+    position: relative;
+    color: #000000;
+    font-size: 30px;
+    margin-left: 5vw;
+    padding-top: 0vh;
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
+}
+.sec{
+    height: 90vh;
+}
+.cont{
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 1.5vw;
+}
+
+
+
+
+#con-title h1{
+    font-size: 5vw;
+    animation: infinite 2s intro;
+}
+#con-title{
+    height: 100vh;
+}
+
+#img1{
+    position: relative;
+    border-radius: 50%;
+    opacity: 70%;
+    width: 40vw;
+    margin-top: 5vh;
+    margin-left: 0vw;
+}
+#img2{
+    position: relative;
+    opacity: 70%;
+    margin-top: 10vh;
+    width: 30vw;
+    border-radius: 5%;
+}
+#chi-autori{
+    position: relative;
+    top: 90vh;
+    align-items: end;
+}
+
+@keyframes intro {
+    0%{
+        color: rgb(0, 0, 0);
+        text-shadow: 0px 0px 10px #868686;
+    }
+    50%{
+        color: rgb(57, 57, 57);
+    }
+    100%{
+        color: rgb(0, 0, 0);
+        text-shadow: 0px 0px 10px #868686;
+    }
+}
+
+@media (max-width: 502px) {
+}
