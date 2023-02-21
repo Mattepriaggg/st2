@@ -1,11 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-
+    scroll-behavior: smooth;
     font-family: 'Shantell Sans', cursive;
+    text-align:justify;
 }
 .center{ 
     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:justify;
+}
+.c-1{
     align-items: center;
     justify-content: center;
     text-align:justify;
@@ -36,11 +42,15 @@
 
 
 .sec-{
-    height: 150vh;
+    height: 100vh;
     background-color: #b58928;
 }
 .sec--{
-    height: 120vh;
+    height: 100vh;
+    background-color: #b58928;
+}
+.sec---{
+    height: 220vh;
     background-color: #b58928;
 }
 .title{
@@ -59,9 +69,50 @@
     margin-left: 5vw;
     margin-right: 5vw;
     font-size: 1.5vw;
+    width: 90vw;
+}
+.cont-in{
+    position: relative;
+    margin-top: 5vh;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    font-size: 1.5vw;
+    width: 65vw;
+    left: 13vw;
+}
+.cont--in{
+    left: auto;
+    font-size: 1.5vw;
+    margin-left: 40vw;
+    margin-right: 5vw;
+}
+
+.desc-re{
+    position: relative;
+    top: 4vh;
+    font-size: 20px;
 }
 
 
+.cont--1{
+    position: relative;
+    width: 20vw;
+    font-size: 1.5vw;
+    left: 0vw;
+}
+.cont--2{
+    position: relative;
+    width: 20vw; 
+    font-size: 1.5vw;
+    left: 0vw;
+}
+.cont--3{
+    position: relative;
+    width: 40vw; 
+    font-size: 1.5vw;
+    top: 45vh;
+    left: 0vw;
+}
 
 
 #con-title h1{
@@ -71,22 +122,52 @@
 #con-title{
     height: 100vh;
 }
-
+#h1-1{
+   position: relative;
+   left: -4vw;
+   width: 50vw;
+}
 #img1{
     position: relative;
     border-radius: 50%;
     opacity: 70%;
-    width: 40vw;
-    margin-top: 5vh;
+    width: 30vw;
+    top: -25vh;
     margin-left: 0vw;
 }
 #img2{
     position: relative;
     opacity: 70%;
-    margin-top: 10vh;
+    top: -76vh;
+    left: -30vw;
     width: 30vw;
     border-radius: 5%;
 }
+#img3{
+    position: relative;
+    opacity: 70%;
+    top: -65vh;
+    left: 30vw;
+    width: 20vw;
+    border-radius: 5%;
+    border: solid 5px black;
+}
+#Teodorico{
+    width: 15vw;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+#Strabone{
+    width: 20vw;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+#Zenone{
+    width: 16vw;
+    border-radius: 50%;
+}
+
 #chi-autori{
     position: relative;
     top: 90vh;
